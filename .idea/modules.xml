@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sorting/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/Sorting/InsertionSort/InsertionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToAlgorithms.iml" filepath="$PROJECT_DIR$/IntroductionToAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/InsertionSort/src/main/main.iml" filepath="$PROJECT_DIR$/Sorting/InsertionSort/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/InsertionSort/src/test/test.iml" filepath="$PROJECT_DIR$/Sorting/InsertionSort/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

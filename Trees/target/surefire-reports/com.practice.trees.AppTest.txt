@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.practice.trees.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in com.practice.trees.AppTest
+testApp(com.practice.trees.AppTest)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.practice.trees.AppTest.testApp(AppTest.java:50)
+

@@ -1,0 +1,46 @@
+mvn archetype:generate -DgroupId=com.sorting.insertionSort -DartifactId=InsertionSort -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+This creates a folder called InsertionSort and the directory structure is something similar to this:
+my-app
+| -- pom.xml
+  -- src
+	|-- main
+	|   -- java
+	|     --com
+	|	--mycompany
+	|	  --app
+	|	    --App.java
+	-- test
+	  --java
+	    --com
+	      --mycompany
+		--app
+		  --AppTest.java
+
+
+Build the project: mvn package
+This is just a phase. A phase is a step in the build life-cycle which is an ordered sequence of phases. When a phase is given, maven will execute every phase in the 
+sequence upto the one and including the one defined in the command. For example:
+mvn compile
+1. validate
+2. generate-sources
+3. process-sources
+4. generate-resource
+5. process-resources
+6. compile
+
+We can test the newly compiled and packaged JAR with the following command:
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+Maven Phases:
+Default Lifecycle phases in maven:
+1. validate: validate the project and all necessary information is available
+2. compile: compile the source code of the project
+3. test: test the compiled source code using a test framework. The test should not require the code to be packaged or deployed
+4. integration-test: process and deploy the package if necessary and then run the tests
+5. verify: run any checks to verify if the package is valid and meets the quality criteria
+6. install: install the package into local repository for use as dependency in other projects locally
+7. deploy: deploy the pacakge
+
+a. clean: cleans up artifacts from the previous build
+b. site: generates site documentation for the project. Documentation is generated under target/site. 
